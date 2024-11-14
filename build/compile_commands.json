@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build",
+  "command": "/usr/bin/clang++-14  -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sequence -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter -g -o CMakeFiles/laba.dir/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp",
+  "file": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp",
+  "output": "CMakeFiles/laba.dir/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.o"
+}
+]

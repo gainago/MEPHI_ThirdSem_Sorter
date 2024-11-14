@@ -10,7 +10,7 @@ class ArraySequence: public Sequence<T>
 protected:
     DynamicArray<T> *array_;// array capacity is capacity
     int size_{0};
-    virtual ArraySequence<T> *GetInstance() = 0;
+    virtual ArraySequence<T>* GetInstance() override = 0;
 public:
     ArraySequence()
     { 

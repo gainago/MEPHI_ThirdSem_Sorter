@@ -1,0 +1,1 @@
+/usr/bin/clang++-14 -g CMakeFiles/laba.dir/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.o -o laba 

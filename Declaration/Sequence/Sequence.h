@@ -14,6 +14,7 @@ public:
     virtual Sequence<T> *InsertAt(T const & item, int index) = 0;
     virtual Sequence<T> *GetSubSequence(int startIndex, int endIndex) const = 0;
     virtual Sequence<T> *Concat(Sequence<T> const & seq) = 0;
+    virtual Sequence<T> *GetInstance() = 0;
 
     virtual T &operator[] (int index) = 0;
 

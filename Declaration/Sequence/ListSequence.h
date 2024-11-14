@@ -9,7 +9,7 @@ class ListSequence: public Sequence<T>
 {
 protected:
     LinkedList<T> *list_;
-    virtual ListSequence<T> *GetInstance() = 0;
+    virtual ListSequence<T> *GetInstance() override = 0;
 public:
     ListSequence()
     {
