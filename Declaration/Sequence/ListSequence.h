@@ -40,14 +40,22 @@ public:
         this->list_ = new LinkedList<T>(*list);
     }
 
-    ListSequence (const LinkedList<T>& list)
+    ListSequence(const LinkedList<T>& list)
     {
         this->list_ = new LinkedList<T>(list);
     }
 
+    Sequence<T>* GetSequence(int const size)
+    {
+        this->list_ = new LinkedList<T>(size);
+    }
+
     ~ListSequence()
     {
-        delete this->list_;
+        if(this->list_ != nullptr){
+            delete this->list_;
+        }
+        this->list_ = nullptr;
     }
 
     T const & GetFirst() const override
@@ -63,6 +71,13 @@ public:
     T const & Get(int index) const override
     {
         return this->list_->Get(index);
+    }
+
+    ListSequence<T>* Set(int const index, T const & item) override
+    {
+        ListSequence<T>* result = GetInstance();
+        result->list_->Set(index, item);
+        return result;
     }
 
     int GetLength() const override

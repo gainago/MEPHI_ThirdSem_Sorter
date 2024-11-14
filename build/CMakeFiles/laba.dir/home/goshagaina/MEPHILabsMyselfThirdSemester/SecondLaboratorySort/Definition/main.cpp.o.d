@@ -1,6 +1,10 @@
 CMakeFiles/laba.dir/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.o: \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/QuickSort.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/AbstractSorter.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sequence/Sequence.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/BubbleSort.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/PiramidSort.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/requires_hosted.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -168,7 +172,7 @@ CMakeFiles/laba.dir/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaborator
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ostream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/istream.tcc \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/AbstractSorter.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sequence/Sequence.h \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sequence/ListSequence.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sequence/LinkedList.h
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sequence/LinkedList.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sequence/ArraySequence.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sequence/DynamicArray.h

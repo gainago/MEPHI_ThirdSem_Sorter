@@ -58,7 +58,7 @@ public:
         return this->capacity_;
     }
 
-    void Set(int index, T const & value)
+    void Set(int const index, T const & value)
     {
         if (index < 0 || index >= this->capacity_)
         {

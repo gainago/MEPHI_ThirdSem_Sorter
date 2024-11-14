@@ -52,9 +52,21 @@ public:
         size_ = array_->GetCapacity();
     }
 
+    ArraySequence<T>* GetSequence(int const size)
+    {
+        if(size < 0)
+            throw "Invalid size";
+        DynamicArray<T> returnArray(size);
+        ArraySequence<T>* returnArray = new ArraySequence<T>(returnArray);
+        this->array_ = new DynamicArray<T>(size);
+        size_ = array_->GetCapacity();
+    }
+
     virtual ~ArraySequence()
     {
-        delete this->array_;
+        if(this->array_ != nullptr)
+            delete this->array_;
+        this->array_ = nullptr;
     }
 
     T const & GetFirst() const override
@@ -79,6 +91,15 @@ public:
     int GetCapacity() const
     {
         return this->array_->GetCapacity();
+    }
+
+    ArraySequence<T>* Set(int const index, T const & item) override
+    {
+        if(index <0 || index >= this->GetLength())
+            throw "invalid index";
+        ArraySequence<T>*  returnArray = this->GetInstance();
+        returnArray->array_->Set(index, item);
+        return returnArray;
     }
 
     ArraySequence<T> *Append(T const & item) override
@@ -190,7 +211,7 @@ template <typename T>
 class MutableArraySequence : public ArraySequence<T>
 {
 private:
-    ArraySequence<T> *GetInstance() override
+    ArraySequence<T>* GetInstance() override
     {
         return static_cast<ArraySequence<T> *> (this);
     }
@@ -198,7 +219,7 @@ private:
 public:
     using ArraySequence<T>::ArraySequence;
 
-    MutableArraySequence<T> *Concat (Sequence<T> const  &seq) override
+    MutableArraySequence<T>* Concat (Sequence<T> const  &seq) override
     {
         for (int i = 0; i < seq.GetLength(); i++)
         {
@@ -207,7 +228,7 @@ public:
         return this;
     }
 
-    MutableArraySequence<T> *GetSubSequence (int startIndex, int endIndex) const override
+    MutableArraySequence<T>* GetSubSequence (int startIndex, int endIndex) const override
     {
         if (startIndex < 0 || endIndex < 0 || endIndex >= this->GetLength() || endIndex < startIndex)
         {
@@ -222,13 +243,17 @@ public:
         result->array_ = resultArray;
         return result;
     }
+    MutableArraySequence<T>* GetSequence(const int size)
+    {
+
+    } 
 };
 
 template <typename T>
 class ImmutableArraySequence : public ArraySequence<T>
 {
 private:
-    ArraySequence<T> *GetInstance() override
+    ArraySequence<T>* GetInstance() override
     {
         ImmutableArraySequence<T> *instance = new ImmutableArraySequence<T> (*this);
         return instance;
@@ -237,7 +262,7 @@ private:
 public:
     using ArraySequence<T>::ArraySequence;
 
-    ImmutableArraySequence<T> *Concat(Sequence<T> const & seq) override
+    ImmutableArraySequence<T>* Concat(Sequence<T> const & seq) override
     {
         DynamicArray<T> *resultArray = new DynamicArray<T>(this->GetLength() + seq.GetLength());
         for (int i = 0; i < this->GetLength(); i++)
@@ -252,7 +277,7 @@ public:
         return result;
     }
 
-    ImmutableArraySequence<T> *GetSubSequence(int startIndex, int endIndex) const override
+    ImmutableArraySequence<T>* GetSubSequence(int startIndex, int endIndex) const override
     {
         if (startIndex < 0 || endIndex < 0 || endIndex >= this->GetLength() || endIndex < startIndex)
         {

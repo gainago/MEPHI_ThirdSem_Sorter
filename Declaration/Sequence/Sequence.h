@@ -9,13 +9,14 @@ public:
     virtual T const & GetLast() const = 0;
     virtual T const & Get(int index) const = 0;
     virtual int GetLength() const = 0;
-    virtual Sequence<T> *Append(T const & item) = 0;
-    virtual Sequence<T> *Prepend(T const & item) = 0;
-    virtual Sequence<T> *InsertAt(T const & item, int index) = 0;
-    virtual Sequence<T> *GetSubSequence(int startIndex, int endIndex) const = 0;
-    virtual Sequence<T> *Concat(Sequence<T> const & seq) = 0;
-    virtual Sequence<T> *GetInstance() = 0;
-
+    virtual Sequence<T>* Append(T const & item) = 0;
+    virtual Sequence<T>* Prepend(T const & item) = 0;
+    virtual Sequence<T>* InsertAt(T const & item, int index) = 0;
+    virtual Sequence<T>* GetSubSequence(int startIndex, int endIndex) const = 0;
+    virtual Sequence<T>* Concat(Sequence<T> const & seq) = 0;
+    virtual Sequence<T>* GetInstance() = 0;
+    virtual Sequence<T>* GetSequence(int const size) = 0;
+    virtual Sequence<T>* Set(int const index, T const & item) = 0;
     virtual T &operator[] (int index) = 0;
 
     bool operator==(const Sequence<T> &seq);
@@ -25,7 +26,7 @@ public:
 
 };
 
-template<typename Type>  bool Sequence<Type>::operator==(const Sequence<Type> & Other)
+template<typename T>  bool Sequence<T>::operator==(const Sequence<T> & Other)
 {
     if (Other.GetLength() == this->GetLength())
     {
@@ -39,7 +40,7 @@ template<typename Type>  bool Sequence<Type>::operator==(const Sequence<Type> & 
     }
     return Other.GetLength() == this->GetLength();
 }
-template<typename Type>  bool Sequence<Type>::operator!=(const Sequence<Type> &seq)
+template<typename T>  bool Sequence<T>::operator!=(const Sequence<T> &seq)
 {
     if (seq.GetLength() == this->GetLength())
     {

@@ -27,6 +27,18 @@ public:
         this->head = nullptr;
     }
 
+    LinkedList(int const size) : LinkedList()
+    {
+        if( size < 0)
+        {    
+            throw "Invalid size";
+        }
+        for(int i = 0; i < size; i++)
+        {
+            Append(T());
+        }
+    }
+
     LinkedList(T* items, int count) : LinkedList()
     {
         if (count < 0 || items == nullptr)
@@ -137,6 +149,11 @@ public:
         this->size++;
     }
 
+    void Set(int const index, T const & item)
+    {
+        this->operator[](index) = item;
+    }
+
     void Prepend(T item)
     {
         Node *newHead = new Node(item, this->head);
@@ -177,11 +194,13 @@ public:
 
     T &operator[] (int index)
     {
-        if (index > this->size || index < 0)
+        if (index >= this->size || index < 0)
         {
             throw "Invalid argument";
         }
+
         Node *result = this->head;
+
         for (int i = 0; i < index; i++)
         {
             result = result->pNext;
