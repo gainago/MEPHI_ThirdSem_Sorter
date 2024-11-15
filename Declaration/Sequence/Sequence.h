@@ -12,10 +12,10 @@ public:
     virtual Sequence<T>* Append(T const & item) = 0;
     virtual Sequence<T>* Prepend(T const & item) = 0;
     virtual Sequence<T>* InsertAt(T const & item, int index) = 0;
-    virtual Sequence<T>* GetSubSequence(int startIndex, int endIndex) const = 0;
+    virtual Sequence<T>* GetSubSequence(int startIndex, int endIndex) const = 0; // первый элемент включается, последний не включается
     virtual Sequence<T>* Concat(Sequence<T> const & seq) = 0;
-    virtual Sequence<T>* GetInstance() = 0;
-    virtual Sequence<T>* GetSequence(int const size) = 0;
+    //virtual Sequence<T>* GetInstance() = 0;
+    virtual Sequence<T>* GetNewSequence(int const size) = 0;
     virtual Sequence<T>* Set(int const index, T const & item) = 0;
     virtual T &operator[] (int index) = 0;
 
@@ -23,6 +23,7 @@ public:
 
 
     bool operator!=(const Sequence<T> &seq);
+    virtual ~Sequence() {}
 
 };
 

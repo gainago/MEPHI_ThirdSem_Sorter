@@ -10,11 +10,15 @@ public:
     BubbleSorter(bool (*cmp)(Type const &, Type const &)) : Sorter<Type>(cmp) {}
     BubbleSorter(BubbleSorter<Type> const & other) : Sorter<Type>(other.cmp_) {}
 
-    Sequence<Type>* Sort(Sequence<Type>* seq) override
+    void Sort(Sequence<Type>* seq) override
     {
-        Sequence<Type>* seqToSort = seq->GetInstance();
-        BubbleSort(seqToSort);
-        return seqToSort;
+        //Sequence<Type>* seqToSort = seq->GetInstance();// так делать плохо потому что пользователь при получении результата
+                                                        //может дважды очистить пямять 
+                                                        //делать только с мутабельными сиквенсами
+                                                        // и соответственно ничего не возаращаьб
+                                                        //метод гет инстанс в целом  плохая идея из зи этой же проблемы
+        BubbleSort(seq);
+        return seq;
 
     }
 private:

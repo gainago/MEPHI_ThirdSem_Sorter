@@ -7,7 +7,7 @@ template <typename Type> class Sorter{
 
 protected:
 
-    /// @brief ukjmjmj
+    
     bool (*cmp_)(Type const &, Type const &); // isLeftLessRight
 
 public:
@@ -15,7 +15,7 @@ public:
     Sorter(bool (*cmp)(Type const &, Type const &)) : cmp_(cmp) {}
     Sorter(Sorter<Type>* other) : cmp_(other->cmp_) {}
 
-    virtual Sequence<Type>* Sort(Sequence<Type>* seq) = 0;
+    virtual void Sort(Sequence<Type>* seq) = 0;         //only for Mutable Sequences
 
     virtual ~Sorter() {};
 

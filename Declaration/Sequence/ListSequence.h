@@ -9,7 +9,7 @@ class ListSequence: public Sequence<T>
 {
 protected:
     LinkedList<T> *list_;
-    virtual ListSequence<T> *GetInstance() override = 0;
+    virtual ListSequence<T> *GetInstance() = 0;
 public:
     ListSequence()
     {
@@ -44,8 +44,7 @@ public:
     {
         this->list_ = new LinkedList<T>(list);
     }
-
-    Sequence<T>* GetSequence(int const size)
+    ListSequence(int const size)
     {
         this->list_ = new LinkedList<T>(size);
     }
@@ -136,13 +135,18 @@ public:
 
     MutableListSequence<T> *GetSubSequence(int startIndex, int endIndex) const override
     {
-        if (startIndex < 0 || endIndex < 0 || endIndex >= this->list_->GetLength() || endIndex < startIndex)
+        if (startIndex < 0 || endIndex < 0 || endIndex > this->list_->GetLength() || endIndex < startIndex)
         {
             throw "Invalid argument";
         }
         LinkedList<T> *resultList = this->list_->GetSubList(startIndex, endIndex);
         MutableListSequence<T> *result = new MutableListSequence<T>(resultList);
         result->list_ = resultList;
+        return result;
+    }
+    MutableListSequence<T>* GetNewSequence(int const size) override
+    {
+        MutableListSequence<T>* result = new MutableListSequence<T>(size);
         return result;
     }
 
@@ -178,13 +182,18 @@ public:
 
     ImmutableListSequence<T> *GetSubSequence(int startIndex, int endIndex) const override
     {
-        if (startIndex < 0 || endIndex < 0 || endIndex >= this->list_->GetLength() || endIndex < startIndex)
+        if (startIndex < 0 || endIndex < 0 || endIndex > this->list_->GetLength() || endIndex < startIndex)
         {
             throw "Invalid argument";
         }
         LinkedList<T> *resultList = this->list_->GetSubList(startIndex, endIndex);
         ImmutableListSequence<T> *result = new ImmutableListSequence<T>(resultList);
         result->list_ = resultList;
+        return result;
+    }
+    ImmutableListSequence<T>* GetNewSequence(int const size) override
+    {
+        ImmutableListSequence<T>* result = new ImmutableListSequence<T>(size);
         return result;
     }
 };

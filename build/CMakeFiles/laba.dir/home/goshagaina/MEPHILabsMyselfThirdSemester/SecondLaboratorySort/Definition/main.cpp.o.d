@@ -5,6 +5,7 @@ CMakeFiles/laba.dir/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaborator
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sequence/Sequence.h \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/BubbleSort.h \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/PiramidSort.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/MergeSort.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/requires_hosted.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++config.h \

@@ -1,15 +1,7 @@
 #ifndef PIRAMID_SORT_H
 #define PIRAMID_SORT_H
 
-#include <iostream>
 #include "AbstractSorter.h"
-
-template <typename Type> void PrintSeq(Sequence<Type>* seq)
-{
-    for(int i = 0; i < seq->GetLength(); i++)
-        std::cout << seq->Get(i) << "   ";
-    std::cout << std::endl;
-}
 
 template <typename Type>  class PiramidSorter : public Sorter<Type>
 {
@@ -18,12 +10,12 @@ public:
     PiramidSorter(bool (*cmp)(Type const &, Type const &)) : Sorter<Type>(cmp) {}
     PiramidSorter(PiramidSorter<Type> const & other) : Sorter<Type>(other.cmp_) {}
 
-    Sequence<Type>* Sort(Sequence<Type>* seq) override
+    void Sort(Sequence<Type>* seq) override
     {
-        Sequence<Type>* seqToSort = seq->GetInstance();
-        piramidSort(seqToSort, seqToSort->GetLength());
+        //Sequence<Type>* seqToSort = seq->GetInstance();
+        piramidSort(seq, seq->GetLength());
 
-        return seqToSort;
+        return seq;
 
     }
     

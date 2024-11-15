@@ -11,12 +11,12 @@ public:
     QuickSorter(bool (*cmp)(Type const &, Type const &)) : Sorter<Type>(cmp) {}
     QuickSorter(QuickSorter<Type> const & other) : Sorter<Type>(other.cmp_) {}
 
-    Sequence<Type>* Sort(Sequence<Type>* seq) override
+    void Sort(Sequence<Type>* seq) override
     {
-        Sequence<Type>* seqToSort = seq->GetInstance();
-        quickSort(seqToSort, 0, seqToSort->GetLength() - 1);
+        //Sequence<Type>* seqToSort = seq->GetInstance();
+        quickSort(seq, 0, seq->GetLength() - 1);
 
-        return seqToSort;
+        return seq;
 
     }
 

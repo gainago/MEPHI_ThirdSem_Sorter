@@ -10,7 +10,7 @@ class ArraySequence: public Sequence<T>
 protected:
     DynamicArray<T> *array_;// array capacity is capacity
     int size_{0};
-    virtual ArraySequence<T>* GetInstance() override = 0;
+    virtual ArraySequence<T>* GetInstance() = 0;
 public:
     ArraySequence()
     { 
@@ -52,15 +52,6 @@ public:
         size_ = array_->GetCapacity();
     }
 
-    ArraySequence<T>* GetSequence(int const size)
-    {
-        if(size < 0)
-            throw "Invalid size";
-        DynamicArray<T> returnArray(size);
-        ArraySequence<T>* returnArray = new ArraySequence<T>(returnArray);
-        this->array_ = new DynamicArray<T>(size);
-        size_ = array_->GetCapacity();
-    }
 
     virtual ~ArraySequence()
     {
@@ -230,12 +221,12 @@ public:
 
     MutableArraySequence<T>* GetSubSequence (int startIndex, int endIndex) const override
     {
-        if (startIndex < 0 || endIndex < 0 || endIndex >= this->GetLength() || endIndex < startIndex)
+        if (startIndex < 0 || endIndex < 0 || endIndex > this->GetLength() || endIndex < startIndex)
         {
             throw "Invalid argument";
         }
-        DynamicArray<T> *resultArray = new DynamicArray<T>(endIndex - startIndex + 1);
-        for (int i = 0; i < endIndex - startIndex + 1; i++)
+        DynamicArray<T> *resultArray = new DynamicArray<T>(endIndex - startIndex);
+        for (int i = 0; i < endIndex - startIndex; i++)
         {
             resultArray->Set(i, this->array_->Get(startIndex + i));
         }
@@ -243,9 +234,10 @@ public:
         result->array_ = resultArray;
         return result;
     }
-    MutableArraySequence<T>* GetSequence(const int size)
+    MutableArraySequence<T>* GetNewSequence(const int size) override
     {
-
+        MutableArraySequence<T>* result = new MutableArraySequence(size);
+        return result;
     } 
 };
 
@@ -279,12 +271,12 @@ public:
 
     ImmutableArraySequence<T>* GetSubSequence(int startIndex, int endIndex) const override
     {
-        if (startIndex < 0 || endIndex < 0 || endIndex >= this->GetLength() || endIndex < startIndex)
+        if (startIndex < 0 || endIndex < 0 || endIndex > this->GetLength() || endIndex < startIndex)
         {
             throw "Invalid argument";
         }
-        DynamicArray<T> *resultArray = new DynamicArray<T>(endIndex - startIndex + 1);
-        for (int i = 0; i < endIndex - startIndex + 1; i++)
+        DynamicArray<T> *resultArray = new DynamicArray<T>(endIndex - startIndex);
+        for (int i = 0; i < endIndex - startIndex; i++)
         {
             resultArray->Set(i, this->array_->Get(startIndex + i));
         }
@@ -292,6 +284,12 @@ public:
         result->array_ = resultArray;
         return result;
     }
+
+    ImmutableArraySequence<T>* GetNewSequence(const int size) override
+    {
+        ImmutableArraySequence<T>* result = new ImmutableArraySequence(size);
+        return result;
+    } 
 
 };
 
