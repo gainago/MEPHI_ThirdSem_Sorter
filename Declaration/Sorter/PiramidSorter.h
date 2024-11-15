@@ -15,8 +15,6 @@ public:
         //Sequence<Type>* seqToSort = seq->GetInstance();
         piramidSort(seq, seq->GetLength());
 
-        return seq;
-
     }
     
 private:

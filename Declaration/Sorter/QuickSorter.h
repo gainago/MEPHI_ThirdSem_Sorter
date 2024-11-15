@@ -16,8 +16,6 @@ public:
         //Sequence<Type>* seqToSort = seq->GetInstance();
         quickSort(seq, 0, seq->GetLength() - 1);
 
-        return seq;
-
     }
 
 private:

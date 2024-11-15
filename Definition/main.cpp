@@ -1,12 +1,14 @@
-#include "QuickSort.h"
-#include "BubbleSort.h"
-#include "PiramidSort.h"
-#include "MergeSort.h"
+#include "QuickSorter.h"
+#include "BubbleSorter.h"
+#include "PiramidSorter.h"
+#include "MergeSorter.h"
+#include "InsertionSorter.h"
+#include "ShellSorter.h"
 #include "ListSequence.h"
 #include "ArraySequence.h"
 #include <iostream>
 
-bool cmp(int const & a, int const & b) // это компоратор
+bool cmpInt(int const & a, int const & b) // это компоратор
 {
     return a < b;
 }
@@ -22,8 +24,12 @@ int main(int argc, char** argv)
     //BSorter.Sort(seq);
    // PiramidSorter<int> PSorter(cmp);
     //PSorter.Sort(seq);
-    MergeSorter<int> mSorter(cmp);
-    mSorter.Sort(seq);
+    //MergeSorter<int> mSorter(cmp);
+    //mSorter.Sort(seq);
+    //InsertionSorter<int> iSorter(cmpInt);
+    //iSorter.Sort(seq);
+    ShellSorter<int> sSorter(cmpInt);
+    sSorter.Sort(seq);
     PrintSeq(seq);
 
 }

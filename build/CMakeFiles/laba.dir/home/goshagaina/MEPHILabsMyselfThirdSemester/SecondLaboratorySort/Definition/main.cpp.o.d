@@ -1,11 +1,11 @@
 CMakeFiles/laba.dir/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.o: \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/QuickSort.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/QuickSorter.h \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/AbstractSorter.h \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sequence/Sequence.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/BubbleSort.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/PiramidSort.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/MergeSort.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/BubbleSorter.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/PiramidSorter.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/MergeSorter.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/requires_hosted.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -173,6 +173,8 @@ CMakeFiles/laba.dir/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaborator
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ostream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/istream.tcc \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/InsertionSorter.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sorter/ShellSorter.h \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sequence/ListSequence.h \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sequence/LinkedList.h \
   /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build/../../Declaration/Sequence/ArraySequence.h \
