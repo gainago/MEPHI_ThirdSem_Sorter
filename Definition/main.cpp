@@ -6,7 +6,7 @@
 #include "ArraySequence.h"
 #include <iostream>
 
-bool cmp(int const & a, int const & b)
+bool cmp(int const & a, int const & b) // это компоратор
 {
     return a < b;
 }
