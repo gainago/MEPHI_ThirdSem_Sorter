@@ -69,10 +69,94 @@ include CMakeFiles/test_cmake.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test_cmake.dir/flags.make
 
+CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.o: CMakeFiles/test_cmake.dir/flags.make
+CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/CheckCorrectlySorted.cpp
+CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.o: CMakeFiles/test_cmake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.o -MF CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.o.d -o CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/CheckCorrectlySorted.cpp
+
+CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.i"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/CheckCorrectlySorted.cpp > CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.i
+
+CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.s"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/CheckCorrectlySorted.cpp -o CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.s
+
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.o: CMakeFiles/test_cmake.dir/flags.make
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateArraySequenceInt.cpp
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.o: CMakeFiles/test_cmake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.o -MF CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.o.d -o CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateArraySequenceInt.cpp
+
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.i"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateArraySequenceInt.cpp > CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.i
+
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.s"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateArraySequenceInt.cpp -o CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.s
+
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.o: CMakeFiles/test_cmake.dir/flags.make
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateArraySequencePerson.cpp
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.o: CMakeFiles/test_cmake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.o -MF CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.o.d -o CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateArraySequencePerson.cpp
+
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.i"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateArraySequencePerson.cpp > CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.i
+
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.s"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateArraySequencePerson.cpp -o CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.s
+
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.o: CMakeFiles/test_cmake.dir/flags.make
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateListSequenceInt.cpp
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.o: CMakeFiles/test_cmake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.o -MF CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.o.d -o CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateListSequenceInt.cpp
+
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.i"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateListSequenceInt.cpp > CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.i
+
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.s"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateListSequenceInt.cpp -o CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.s
+
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.o: CMakeFiles/test_cmake.dir/flags.make
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateListSequencePerson.cpp
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.o: CMakeFiles/test_cmake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.o -MF CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.o.d -o CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateListSequencePerson.cpp
+
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.i"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateListSequencePerson.cpp > CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.i
+
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.s"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateListSequencePerson.cpp -o CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.s
+
+CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.o: CMakeFiles/test_cmake.dir/flags.make
+CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GetNamesAndSournamesToMyString.cpp
+CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.o: CMakeFiles/test_cmake.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.o"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.o -MF CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.o.d -o CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GetNamesAndSournamesToMyString.cpp
+
+CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.i"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GetNamesAndSournamesToMyString.cpp > CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.i
+
+CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.s"
+	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GetNamesAndSournamesToMyString.cpp -o CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.s
+
 CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o: CMakeFiles/test_cmake.dir/flags.make
 CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/TypesOfData/MyString.cpp
 CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o: CMakeFiles/test_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o"
 	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o -MF CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o.d -o CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/TypesOfData/MyString.cpp
 
 CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.i: cmake_force
@@ -86,7 +170,7 @@ CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.s: cmake_force
 CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o: CMakeFiles/test_cmake.dir/flags.make
 CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/TypesOfData/Person.cpp
 CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o: CMakeFiles/test_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o"
 	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o -MF CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o.d -o CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/TypesOfData/Person.cpp
 
 CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.i: cmake_force
@@ -100,7 +184,7 @@ CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.s: cmake_force
 CMakeFiles/test_cmake.dir/Definition/main.cpp.o: CMakeFiles/test_cmake.dir/flags.make
 CMakeFiles/test_cmake.dir/Definition/main.cpp.o: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp
 CMakeFiles/test_cmake.dir/Definition/main.cpp.o: CMakeFiles/test_cmake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/test_cmake.dir/Definition/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/test_cmake.dir/Definition/main.cpp.o"
 	/usr/bin/clang++-14 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_cmake.dir/Definition/main.cpp.o -MF CMakeFiles/test_cmake.dir/Definition/main.cpp.o.d -o CMakeFiles/test_cmake.dir/Definition/main.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp
 
 CMakeFiles/test_cmake.dir/Definition/main.cpp.i: cmake_force
@@ -113,6 +197,12 @@ CMakeFiles/test_cmake.dir/Definition/main.cpp.s: cmake_force
 
 # Object files for target test_cmake
 test_cmake_OBJECTS = \
+"CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.o" \
+"CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.o" \
+"CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.o" \
+"CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.o" \
+"CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.o" \
+"CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.o" \
 "CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o" \
 "CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o" \
 "CMakeFiles/test_cmake.dir/Definition/main.cpp.o"
@@ -120,12 +210,18 @@ test_cmake_OBJECTS = \
 # External object files for target test_cmake
 test_cmake_EXTERNAL_OBJECTS =
 
+test_cmake: CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.o
+test_cmake: CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.o
+test_cmake: CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.o
+test_cmake: CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.o
+test_cmake: CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.o
+test_cmake: CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.o
 test_cmake: CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o
 test_cmake: CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o
 test_cmake: CMakeFiles/test_cmake.dir/Definition/main.cpp.o
 test_cmake: CMakeFiles/test_cmake.dir/build.make
 test_cmake: CMakeFiles/test_cmake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable test_cmake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable test_cmake"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_cmake.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -43,6 +43,20 @@
         str_[size] = '\0';
     }
 
+    MyString::MyString(char ch)
+    {
+        length_ = 1;
+         try{
+            this->str_ = new char[length_ + 1];
+        }
+        catch (...)
+        {
+            throw "failed memory allocation";
+        }
+        str_[0] = ch;
+        str_[1] = '\0';
+    }
+
     MyString:: MyString(const char* str)
     {
         length_ = this->StrLen(str);
@@ -71,9 +85,62 @@
         this->length_ = 0;
     }
 
+    char* MyString::Seize()
+    {
+        this-> length_ = 0;
+        char *tmp = str_;
+        str_ = nullptr;
+
+        return tmp;
+
+    }
+
+    MyString MyString::IntToMyString(int const number)
+    {
+        MyString tmpMyString;
+        int tmpNumber = number;
+        bool moreThanNull = 1;
+        if(tmpNumber < 0)
+        {
+            moreThanNull = 0;
+            tmpNumber  *= -1;
+        }
+
+        while(tmpNumber != 0)
+        {
+            int remainder = tmpNumber % 10;
+            char charToAppend = (char)( 48 + remainder);
+            tmpMyString = tmpMyString + charToAppend;
+            tmpNumber /= 10;
+        }
+        
+
+        if(moreThanNull == false)
+        {
+            tmpMyString = tmpMyString + '-'; 
+        }
+
+        tmpMyString.Reverse();
+
+        return tmpMyString;
+
+    }
+
+    void MyString::Reverse()
+    {
+        for(int i = 0; i < length_ / 2; i++)
+        {
+            char tmp = str_[i];
+            str_[i] = str_[length_ -1 - i];
+            str_[length_ -1 -i] = tmp;
+        }
+    }
+
     int MyString::StrLen(const char* symbols) const
     {
         int size = 0;
+        if(symbols == nullptr)
+            return 0;
         while (symbols[size] != '\0') {
             size++;
         }

@@ -2,7 +2,7 @@
 #define MY_STRING_H
 
 #include <iostream>
-// size of string is count of symbols without a '\0'
+// length_ of string is count of symbols without a '\0'
 
 namespace MyStringFunction
 {
@@ -22,13 +22,21 @@ private:
 public:
     MyString();
 
-    MyString(int const);
+    MyString(char);
+
+    MyString(int const size); 
 
     MyString(const char* str);
 
     ~MyString();
 
+    char* Seize();
+
     int StrLen(const char* symbols) const;
+
+    static MyString IntToMyString(int const);
+    
+    void Reverse();
 
     MyString(const MyString& other);
 

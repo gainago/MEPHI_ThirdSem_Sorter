@@ -129,6 +129,150 @@ test_cmake/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/build
 .PHONY : test_cmake/fast
 
+Definition/Tests/CheckCorrectlySorted.o: Definition/Tests/CheckCorrectlySorted.cpp.o
+.PHONY : Definition/Tests/CheckCorrectlySorted.o
+
+# target to build an object file
+Definition/Tests/CheckCorrectlySorted.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.o
+.PHONY : Definition/Tests/CheckCorrectlySorted.cpp.o
+
+Definition/Tests/CheckCorrectlySorted.i: Definition/Tests/CheckCorrectlySorted.cpp.i
+.PHONY : Definition/Tests/CheckCorrectlySorted.i
+
+# target to preprocess a source file
+Definition/Tests/CheckCorrectlySorted.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.i
+.PHONY : Definition/Tests/CheckCorrectlySorted.cpp.i
+
+Definition/Tests/CheckCorrectlySorted.s: Definition/Tests/CheckCorrectlySorted.cpp.s
+.PHONY : Definition/Tests/CheckCorrectlySorted.s
+
+# target to generate assembly for a file
+Definition/Tests/CheckCorrectlySorted.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.s
+.PHONY : Definition/Tests/CheckCorrectlySorted.cpp.s
+
+Definition/Tests/GenerateArraySequenceInt.o: Definition/Tests/GenerateArraySequenceInt.cpp.o
+.PHONY : Definition/Tests/GenerateArraySequenceInt.o
+
+# target to build an object file
+Definition/Tests/GenerateArraySequenceInt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.o
+.PHONY : Definition/Tests/GenerateArraySequenceInt.cpp.o
+
+Definition/Tests/GenerateArraySequenceInt.i: Definition/Tests/GenerateArraySequenceInt.cpp.i
+.PHONY : Definition/Tests/GenerateArraySequenceInt.i
+
+# target to preprocess a source file
+Definition/Tests/GenerateArraySequenceInt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.i
+.PHONY : Definition/Tests/GenerateArraySequenceInt.cpp.i
+
+Definition/Tests/GenerateArraySequenceInt.s: Definition/Tests/GenerateArraySequenceInt.cpp.s
+.PHONY : Definition/Tests/GenerateArraySequenceInt.s
+
+# target to generate assembly for a file
+Definition/Tests/GenerateArraySequenceInt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.s
+.PHONY : Definition/Tests/GenerateArraySequenceInt.cpp.s
+
+Definition/Tests/GenerateArraySequencePerson.o: Definition/Tests/GenerateArraySequencePerson.cpp.o
+.PHONY : Definition/Tests/GenerateArraySequencePerson.o
+
+# target to build an object file
+Definition/Tests/GenerateArraySequencePerson.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.o
+.PHONY : Definition/Tests/GenerateArraySequencePerson.cpp.o
+
+Definition/Tests/GenerateArraySequencePerson.i: Definition/Tests/GenerateArraySequencePerson.cpp.i
+.PHONY : Definition/Tests/GenerateArraySequencePerson.i
+
+# target to preprocess a source file
+Definition/Tests/GenerateArraySequencePerson.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.i
+.PHONY : Definition/Tests/GenerateArraySequencePerson.cpp.i
+
+Definition/Tests/GenerateArraySequencePerson.s: Definition/Tests/GenerateArraySequencePerson.cpp.s
+.PHONY : Definition/Tests/GenerateArraySequencePerson.s
+
+# target to generate assembly for a file
+Definition/Tests/GenerateArraySequencePerson.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.s
+.PHONY : Definition/Tests/GenerateArraySequencePerson.cpp.s
+
+Definition/Tests/GenerateListSequenceInt.o: Definition/Tests/GenerateListSequenceInt.cpp.o
+.PHONY : Definition/Tests/GenerateListSequenceInt.o
+
+# target to build an object file
+Definition/Tests/GenerateListSequenceInt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.o
+.PHONY : Definition/Tests/GenerateListSequenceInt.cpp.o
+
+Definition/Tests/GenerateListSequenceInt.i: Definition/Tests/GenerateListSequenceInt.cpp.i
+.PHONY : Definition/Tests/GenerateListSequenceInt.i
+
+# target to preprocess a source file
+Definition/Tests/GenerateListSequenceInt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.i
+.PHONY : Definition/Tests/GenerateListSequenceInt.cpp.i
+
+Definition/Tests/GenerateListSequenceInt.s: Definition/Tests/GenerateListSequenceInt.cpp.s
+.PHONY : Definition/Tests/GenerateListSequenceInt.s
+
+# target to generate assembly for a file
+Definition/Tests/GenerateListSequenceInt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.s
+.PHONY : Definition/Tests/GenerateListSequenceInt.cpp.s
+
+Definition/Tests/GenerateListSequencePerson.o: Definition/Tests/GenerateListSequencePerson.cpp.o
+.PHONY : Definition/Tests/GenerateListSequencePerson.o
+
+# target to build an object file
+Definition/Tests/GenerateListSequencePerson.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.o
+.PHONY : Definition/Tests/GenerateListSequencePerson.cpp.o
+
+Definition/Tests/GenerateListSequencePerson.i: Definition/Tests/GenerateListSequencePerson.cpp.i
+.PHONY : Definition/Tests/GenerateListSequencePerson.i
+
+# target to preprocess a source file
+Definition/Tests/GenerateListSequencePerson.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.i
+.PHONY : Definition/Tests/GenerateListSequencePerson.cpp.i
+
+Definition/Tests/GenerateListSequencePerson.s: Definition/Tests/GenerateListSequencePerson.cpp.s
+.PHONY : Definition/Tests/GenerateListSequencePerson.s
+
+# target to generate assembly for a file
+Definition/Tests/GenerateListSequencePerson.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.s
+.PHONY : Definition/Tests/GenerateListSequencePerson.cpp.s
+
+Definition/Tests/GetNamesAndSournamesToMyString.o: Definition/Tests/GetNamesAndSournamesToMyString.cpp.o
+.PHONY : Definition/Tests/GetNamesAndSournamesToMyString.o
+
+# target to build an object file
+Definition/Tests/GetNamesAndSournamesToMyString.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.o
+.PHONY : Definition/Tests/GetNamesAndSournamesToMyString.cpp.o
+
+Definition/Tests/GetNamesAndSournamesToMyString.i: Definition/Tests/GetNamesAndSournamesToMyString.cpp.i
+.PHONY : Definition/Tests/GetNamesAndSournamesToMyString.i
+
+# target to preprocess a source file
+Definition/Tests/GetNamesAndSournamesToMyString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.i
+.PHONY : Definition/Tests/GetNamesAndSournamesToMyString.cpp.i
+
+Definition/Tests/GetNamesAndSournamesToMyString.s: Definition/Tests/GetNamesAndSournamesToMyString.cpp.s
+.PHONY : Definition/Tests/GetNamesAndSournamesToMyString.s
+
+# target to generate assembly for a file
+Definition/Tests/GetNamesAndSournamesToMyString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.s
+.PHONY : Definition/Tests/GetNamesAndSournamesToMyString.cpp.s
+
 Definition/TypesOfData/MyString.o: Definition/TypesOfData/MyString.cpp.o
 .PHONY : Definition/TypesOfData/MyString.o
 
@@ -210,6 +354,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test_cmake"
+	@echo "... Definition/Tests/CheckCorrectlySorted.o"
+	@echo "... Definition/Tests/CheckCorrectlySorted.i"
+	@echo "... Definition/Tests/CheckCorrectlySorted.s"
+	@echo "... Definition/Tests/GenerateArraySequenceInt.o"
+	@echo "... Definition/Tests/GenerateArraySequenceInt.i"
+	@echo "... Definition/Tests/GenerateArraySequenceInt.s"
+	@echo "... Definition/Tests/GenerateArraySequencePerson.o"
+	@echo "... Definition/Tests/GenerateArraySequencePerson.i"
+	@echo "... Definition/Tests/GenerateArraySequencePerson.s"
+	@echo "... Definition/Tests/GenerateListSequenceInt.o"
+	@echo "... Definition/Tests/GenerateListSequenceInt.i"
+	@echo "... Definition/Tests/GenerateListSequenceInt.s"
+	@echo "... Definition/Tests/GenerateListSequencePerson.o"
+	@echo "... Definition/Tests/GenerateListSequencePerson.i"
+	@echo "... Definition/Tests/GenerateListSequencePerson.s"
+	@echo "... Definition/Tests/GetNamesAndSournamesToMyString.o"
+	@echo "... Definition/Tests/GetNamesAndSournamesToMyString.i"
+	@echo "... Definition/Tests/GetNamesAndSournamesToMyString.s"
 	@echo "... Definition/TypesOfData/MyString.o"
 	@echo "... Definition/TypesOfData/MyString.i"
 	@echo "... Definition/TypesOfData/MyString.s"

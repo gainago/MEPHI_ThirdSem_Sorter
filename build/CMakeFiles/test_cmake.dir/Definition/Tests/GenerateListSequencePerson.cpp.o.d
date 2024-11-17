@@ -1,20 +1,6 @@
-CMakeFiles/test_cmake.dir/Definition/main.cpp.o: \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter/QuickSorter.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter/AbstractSorter.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/Sequence.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter/BubbleSorter.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter/PiramidSorter.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter/MergeSorter.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter/InsertionSorter.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter/ShellSorter.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter/BitonicSorter.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/ListSequence.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/LinkedList.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/ArraySequence.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/DynamicArray.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData/Person.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream \
+CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.o: \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateListSequencePerson.cpp \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/fstream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/requires_hosted.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++config.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -26,7 +12,7 @@ CMakeFiles/test_cmake.dir/Definition/main.cpp.o: \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ostream \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ios \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iosfwd \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/stringfwd.h \
@@ -177,15 +163,27 @@ CMakeFiles/test_cmake.dir/Definition/main.cpp.o: \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/locale_facets.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/basic_ios.tcc \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ostream.tcc \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/istream.tcc \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData/MyString.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Tests/GetNamesAndSournamesToMyString.h \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Tests/WriteIntToFile.h \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/fstream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/codecvt.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/x86_64-linux-gnu/c++/13/bits/c++io.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/fstream.tcc \
-  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Tests/GenerateArraySequenceInt.h
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/cmath \
+  /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/Sequence.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData/Person.h \
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData/MyString.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/ListSequence.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/LinkedList.h \
+  /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence/DynamicArray.h

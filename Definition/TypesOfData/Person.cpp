@@ -2,7 +2,7 @@
 #include <iostream>
 #include "Person.h"
 //count of symbols without '\0'
-#define MLENGTH 30 
+#define MLENGTH 40 
 
 
     Person::Person() : id(MLENGTH), firstName(MLENGTH), middleName(MLENGTH), lastName(MLENGTH), bornYear(2005) {}

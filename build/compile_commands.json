@@ -1,19 +1,55 @@
 [
 {
   "directory": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build",
-  "command": "/usr/bin/clang++-14  -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData  -std=c++11 -Wall -g -o CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/TypesOfData/MyString.cpp",
+  "command": "/usr/bin/clang++-14  -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Tests  -std=c++11 -Wall -g -o CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/CheckCorrectlySorted.cpp",
+  "file": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/CheckCorrectlySorted.cpp",
+  "output": "CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.o"
+},
+{
+  "directory": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build",
+  "command": "/usr/bin/clang++-14  -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Tests  -std=c++11 -Wall -g -o CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateArraySequenceInt.cpp",
+  "file": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateArraySequenceInt.cpp",
+  "output": "CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.o"
+},
+{
+  "directory": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build",
+  "command": "/usr/bin/clang++-14  -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Tests  -std=c++11 -Wall -g -o CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateArraySequencePerson.cpp",
+  "file": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateArraySequencePerson.cpp",
+  "output": "CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.o"
+},
+{
+  "directory": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build",
+  "command": "/usr/bin/clang++-14  -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Tests  -std=c++11 -Wall -g -o CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateListSequenceInt.cpp",
+  "file": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateListSequenceInt.cpp",
+  "output": "CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.o"
+},
+{
+  "directory": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build",
+  "command": "/usr/bin/clang++-14  -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Tests  -std=c++11 -Wall -g -o CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateListSequencePerson.cpp",
+  "file": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateListSequencePerson.cpp",
+  "output": "CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.o"
+},
+{
+  "directory": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build",
+  "command": "/usr/bin/clang++-14  -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Tests  -std=c++11 -Wall -g -o CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GetNamesAndSournamesToMyString.cpp",
+  "file": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GetNamesAndSournamesToMyString.cpp",
+  "output": "CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.o"
+},
+{
+  "directory": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build",
+  "command": "/usr/bin/clang++-14  -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Tests  -std=c++11 -Wall -g -o CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/TypesOfData/MyString.cpp",
   "file": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/TypesOfData/MyString.cpp",
   "output": "CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o"
 },
 {
   "directory": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build",
-  "command": "/usr/bin/clang++-14  -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData  -std=c++11 -Wall -g -o CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/TypesOfData/Person.cpp",
+  "command": "/usr/bin/clang++-14  -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Tests  -std=c++11 -Wall -g -o CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/TypesOfData/Person.cpp",
   "file": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/TypesOfData/Person.cpp",
   "output": "CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o"
 },
 {
   "directory": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build",
-  "command": "/usr/bin/clang++-14  -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData  -std=c++11 -Wall -g -o CMakeFiles/test_cmake.dir/Definition/main.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp",
+  "command": "/usr/bin/clang++-14  -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Tests  -std=c++11 -Wall -g -o CMakeFiles/test_cmake.dir/Definition/main.cpp.o -c /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp",
   "file": "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp",
   "output": "CMakeFiles/test_cmake.dir/Definition/main.cpp.o"
 }

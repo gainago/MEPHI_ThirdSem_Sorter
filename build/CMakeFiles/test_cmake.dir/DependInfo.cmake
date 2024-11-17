@@ -8,6 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/CheckCorrectlySorted.cpp" "CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.o" "gcc" "CMakeFiles/test_cmake.dir/Definition/Tests/CheckCorrectlySorted.cpp.o.d"
+  "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateArraySequenceInt.cpp" "CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.o" "gcc" "CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequenceInt.cpp.o.d"
+  "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateArraySequencePerson.cpp" "CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.o" "gcc" "CMakeFiles/test_cmake.dir/Definition/Tests/GenerateArraySequencePerson.cpp.o.d"
+  "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateListSequenceInt.cpp" "CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.o" "gcc" "CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequenceInt.cpp.o.d"
+  "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GenerateListSequencePerson.cpp" "CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.o" "gcc" "CMakeFiles/test_cmake.dir/Definition/Tests/GenerateListSequencePerson.cpp.o.d"
+  "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/Tests/GetNamesAndSournamesToMyString.cpp" "CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.o" "gcc" "CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.o.d"
   "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/TypesOfData/MyString.cpp" "CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o" "gcc" "CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o.d"
   "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/TypesOfData/Person.cpp" "CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o" "gcc" "CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o.d"
   "/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp" "CMakeFiles/test_cmake.dir/Definition/main.cpp.o" "gcc" "CMakeFiles/test_cmake.dir/Definition/main.cpp.o.d"
