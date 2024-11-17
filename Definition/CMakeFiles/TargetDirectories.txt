@@ -1,3 +1,0 @@
-/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/CMakeFiles/laba.dir
-/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/CMakeFiles/edit_cache.dir
-/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,4 @@
-# Install script for directory: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build
+# Install script for directory: /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

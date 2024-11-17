@@ -1,5 +1,5 @@
-#ifndef PIRAMID_SORT_H
-#define PIRAMID_SORT_H
+#ifndef PIRAMID_SORTER_H
+#define PIRAMID_SORTER_H
 
 #include "AbstractSorter.h"
 

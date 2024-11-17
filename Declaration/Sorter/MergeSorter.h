@@ -1,15 +1,7 @@
-#ifndef MERGE_SORT_H
-#define MERGE_SORT_H
+#ifndef MERGE_SORTER_H
+#define MERGE_SORTER_H
 
-#include <iostream>
 #include "AbstractSorter.h"
-
-template <typename Type> void PrintSeq(Sequence<Type>* seq)
-{
-    for(int i = 0; i < seq->GetLength(); i++)
-        std::cout << seq->Get(i) << "   ";
-    std::cout << std::endl;
-}
 
 template <typename Type>  class MergeSorter : public Sorter<Type>
 {

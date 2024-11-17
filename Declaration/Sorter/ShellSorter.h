@@ -1,5 +1,5 @@
-#ifndef SHELL_SORT_H
-#define SHELL_SORT_H
+#ifndef SHELL_SORTER_H
+#define SHELL_SORTER_H
 
 #include "AbstractSorter.h"
 

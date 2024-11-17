@@ -1,31 +1,74 @@
 #include <iostream>
 #include "MyString.h"
 
+    void MyStringFunction::GetCharMassive(char* arr, int const sizeOfArr) // sizeOfArr is count of chars without '\0'
+    {
+        for(int i = 0; i < sizeOfArr; i++)
+        {
+            int tmp  = getchar();
+            if(tmp == EOF || tmp == int('\n')){
+                //arr[i] = '\0'; //correctly realisation
+                //return;
+                for(int j = i; j < sizeOfArr; j++) //but i need that
+                {
+                    arr[j] = ' ';
+                }
+                break;
+            }
+            arr[i] = (char)tmp;
+        }
+        arr[sizeOfArr] = '\0';
+    }
+
     MyString::MyString()
     {
-        str = nullptr;
-        length = 0;
+        str_ = nullptr;
+        length_ = 0;
+    }
+
+    MyString::MyString(int const size)
+    {
+        try{
+            this->str_ = new char[size + 1];
+        }
+        catch (...)
+        {
+            throw "failed memory allocation";
+        }
+        this->length_ = size;
+        for(int i = 0; i < size; i++)
+        {
+            str_[i] = ' ';
+        }
+        str_[size] = '\0';
     }
 
     MyString:: MyString(const char* str)
     {
-        length = this->StrLen(str);
-        this->str = new char[length + 1];
-
-        for (int i = 0; i < length; i++)
+        length_ = this->StrLen(str);
+        
+        try{
+            this->str_ = new char[length_ + 1];
+        }
+        catch (...)
         {
-            this->str[i] = str[i];
+            throw "failed memory allocation";
         }
 
-        this->str[length] = '\0';
+        for (int i = 0; i < length_ + 1; i++)
+        {
+            this->str_[i] = str[i];
+        }
+
+        //this->str_[length_ ] = '\0';
 
     }
 
     MyString::~MyString()
     {
-        delete[] this->str;
-        this->str = nullptr;
-        this->length = 0;
+        delete[] this->str_;
+        this->str_ = nullptr;
+        this->length_ = 0;
     }
 
     int MyString::StrLen(const char* symbols) const
@@ -37,7 +80,7 @@
         return size;
     }
 
-    void MyString::StrCopy(char *dest, const char* src)
+    void MyString::StrCopy(char *dest, const char *src)
     {
         int i = 0;
         while (src[i] != '\0')
@@ -48,95 +91,140 @@
         dest[i] = '\0';
     }
 
+    void MyString::StrCopy(char *dest, const char *src, int const size)
+    {
+        int i = 0;
+        while(src[i] != '\0' && i < size)
+        {
+            dest[i] = src[i];
+        }
+        dest[i] = '\0';
+    }
+
     MyString::MyString(const MyString& other)
     {
-        length = other.StrLen(other.str);
-        this->str = new char[length + 1];
-
-        for (int i = 0; i < length; i++)
+        length_ = other.StrLen(other.str_);
+        //this->str_ = new char[length_ + 1];
+        try{
+            this->str_ = new char[length_ + 1];
+        }
+        catch (...)
         {
-            this->str[i] = other.str[i];
+            throw "failed memory allocation";
         }
 
-        this->str[length] = '\0';
+        for (int i = 0; i < length_; i++)
+        {
+            this->str_[i] = other.str_[i];
+        }
+
+        this->str_[length_] = '\0';
     }
 
     MyString& MyString::operator=(const MyString& other)
     {
-        if(this->str == other.str)
+        if(this->str_ == other.str_)
             return *this;
 
-        if (this->str != nullptr)
+        if (this->str_ != nullptr)
         {
-            delete[] str;
+            delete[] str_;
         }
 
-        length = other.StrLen(other.str);
-        this->str = new char[length + 1];
-        for (int i = 0; i < length; i++)
-        {
-            this->str[i] = other.str[i];
+        length_ = other.StrLen(other.str_);
+        //this->str_ = new char[length_ + 1];
+        try{
+            this->str_ = new char[length_ + 1];
         }
-        this->str[length] = '\0';
+        catch (...)
+        {
+            throw "failed memory allocation";
+        }
+
+        for (int i = 0; i < length_; i++)
+        {
+            this->str_[i] = other.str_[i];
+        }
+        this->str_[length_] = '\0';
         return *this;
     }
 
     MyString MyString::operator+(const MyString& other)
     {
         MyString newStr;
-        int thisLength = this->StrLen(this->str);
-        int otherLength = other.StrLen(other.str);
+        int thisLength = this->StrLen(this->str_);
+        int otherLength = other.StrLen(other.str_);
 
-        newStr.length = thisLength + otherLength;
+        newStr.length_ = thisLength + otherLength;
 
-        newStr.str = new char[thisLength + otherLength + 1];
+        
+
+        try{
+            newStr.str_ = new char[thisLength + otherLength + 1];
+        }
+        catch (...)
+        {
+            throw "failed memory allocation";
+        }
 
         for (int i = 0; i < thisLength; i++)
         {
-            newStr.str[i] = this->str[i];
+            newStr.str_[i] = this->str_[i];
         }
 
         for (int j = 0; j < otherLength; j++)
         {
-            newStr.str[thisLength + j] = other.str[j];
+            newStr.str_[thisLength + j] = other.str_[j];
         }
 
-        newStr.str[thisLength + otherLength] = '\0';
+        newStr.str_[thisLength + otherLength] = '\0';
 
         return newStr;
     }
 
-     std::ostream & operator<<(std::ostream &out, const MyString& myString)
+    std::ostream & operator<<(std::ostream &out, const MyString& myString)
     {
-        return out << myString.str;
+        return out << myString.str_;
     }
 
-     std::istream & operator>>(std::istream &in, MyString& myString)
+    std::istream & operator>>(std::istream &in, MyString& myString)
     {
-        char buffer[1000];
-        in >> buffer;
-        myString.length = myString.StrLen(buffer);
-        delete[] myString.str;
-        myString.str = new char[myString.length + 1];
-        myString.StrCopy(myString.str, buffer);
+        char buffer[1001];
+        MyStringFunction::GetCharMassive(buffer, 1000);
+        //in >> buffer;
+        myString.length_ = myString.StrLen(buffer);
+
+        delete[] myString.str_;
+
+        
+
+        try{
+            myString.str_ = new char[myString.length_ + 1];
+        }
+        catch (...)
+        {
+            throw "failed memory allocation";
+        }
+
+        myString.StrCopy(myString.str_, buffer);
         return in;
     }
 
     int MyString::GetLength() const
     {
-        return length;
+        return length_;
     }
 
     bool MyString::operator==(const MyString& other) const
     {
-        if (this->length != other.length)
+        if (this->length_ != other.length_)
         {
             return false;
         }
 
-        for (int i = 0; i < this->length; i++)
+        for (int i = 0; i < this->length_; i++)
         {
-            if (this->str[i] != other.str[i])
+            if (this->str_[i] != other.str_[i])
             {
                 return false;
             }
@@ -144,21 +232,22 @@
         return true;
     }
 
-    bool MyString::operator!=(const MyString& other)
+    bool MyString::operator!=(const MyString& other) const
     {
         return !(this->operator==(other));
     }
 
     char& MyString::operator [](int index)
     {
-        return this->str[index];
+        return this->str_[index];
     }
 
     MyString::MyString(MyString&& other)
     {
-        this->length = other.length;
-        this->str = other.str;
-        other.str = nullptr;
+        this->length_ = other.length_;
+        this->str_ = other.str_;
+        other.str_ = nullptr;
+        other.length_ = 0;
     }
 
 

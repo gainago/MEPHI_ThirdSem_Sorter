@@ -6,7 +6,9 @@
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/Declaration/Sequence",
                 "${workspaceFolder}/../../**",
-                "${workspaceFolder}/Declaration/Sorter"
+                "${workspaceFolder}/Declaration/Sorter",
+                "${workspaceFolder}/Declaration/TypesOfData",
+                "${workspaceFolder}/Declaration/Tests"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang-18",

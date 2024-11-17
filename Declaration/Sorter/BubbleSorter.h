@@ -1,5 +1,5 @@
-#ifndef BUBBLE_SORT_H
-#define BUBBLE_SORT_H
+#ifndef BUBBLE_SORTER_H
+#define BUBBLE_SORTER_H
 
 #include "AbstractSorter.h"
 
@@ -18,7 +18,6 @@ public:
                                                         // и соответственно ничего не возаращаьб
                                                         //метод гет инстанс в целом  плохая идея из зи этой же проблемы
         BubbleSort(seq);
-        return seq;
 
     }
 private:

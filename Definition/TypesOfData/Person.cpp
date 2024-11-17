@@ -1,12 +1,15 @@
 #include "MyString.h"
 #include <iostream>
 #include "Person.h"
+//count of symbols without '\0'
+#define MLENGTH 30 
 
 
-    Person::Person() : id(""), firstName(""), middleName(""), lastName("") {}
+    Person::Person() : id(MLENGTH), firstName(MLENGTH), middleName(MLENGTH), lastName(MLENGTH), bornYear(2005) {}
 
-    Person::Person(PersonID id, MyString firstName, MyString middleName, MyString lastName)
+    Person::Person(PersonID id, MyString firstName, MyString middleName, MyString lastName, int birthAge )
     {
+        if(id.GetLength() > MLENGTH || firstName.GetLength() > MLENGTH || middleName.GetLength() > MLENGTH)
         this->id = id;
         this->firstName = firstName;
         this->middleName = middleName;
@@ -21,42 +24,67 @@
         this->lastName = person.lastName;
     }
 
-    MyString Person::GetId()
+    MyString Person::GetId() const
     {
         return this->id;
     }
 
-    MyString Person::GetFirstName()
+    MyString Person::GetFirstName() const 
     {
         return this->firstName;
     }
 
-    MyString Person::GetMiddleName()
+    MyString Person::GetMiddleName() const 
     {
         return this->middleName;
     }
 
-    MyString Person::GetLastName()
+    MyString Person::GetLastName() const
     {
         return this->lastName;
     }
 
+    int Person::GetBornYear() const
+    {
+        return this->bornYear;
+    }
+
      std::istream & operator>>(std::istream &in, Person &person)
     {
-        std::cout << "Enter first name: " << std::endl;
-        in >> person.firstName;
-        std::cout << "Enter middle name: " << std::endl;
-        in >> person.middleName;
-        std::cout << "Enter last name: " << std::endl;
-        in >> person.lastName;
-        std::cout << "Enter id: " << std:: endl;
-        in >> person.id;
+        char buffer[MLENGTH + 1];
+        std::cout << "Enter first name( max " << MLENGTH << " symbols) :" << std::endl;
+        MyStringFunction::GetCharMassive(buffer, MLENGTH);
+        MyString tmpStringFirstName(buffer);
+        person.firstName = tmpStringFirstName;
+
+        std::cout << "Enter middle name( max " << MLENGTH << " symbols) :" << std::endl;
+        //in >> person.middleName;
+        MyStringFunction::GetCharMassive(buffer, MLENGTH);
+        MyString tmpStringMiddleName(buffer);
+        person.middleName = tmpStringMiddleName;
+
+        std::cout << "Enter last name( max " << MLENGTH << " symbols) :" << std::endl;
+        //in >> person.lastName;
+        MyStringFunction::GetCharMassive(buffer, MLENGTH);
+        MyString tmpStringLastName(buffer);
+        person.lastName = tmpStringLastName;
+
+        std::cout << "Enter id( max " << MLENGTH << " symbols) :" << std::endl;
+        MyStringFunction::GetCharMassive(buffer, MLENGTH);
+        MyString tmpStringId(buffer);
+        person.id = tmpStringId;
+        //in >> person.id;
+
+        std::cout << "Enter born year" << std::endl;
+        int tmpBornYear = 0;
+        in >> tmpBornYear;
+        person.bornYear = tmpBornYear;
         return in;
     }
 
     std::ostream & operator<<(std::ostream &out, const Person &person)
     {
-        return out << "Person with " << person.id << " id: " << person.firstName << " " << person.middleName << " " << person.lastName << std::endl;
+        return out << "Person id:" << person.id << "\nfirstName: " << person.firstName << "\nmiddleName: " << person.middleName << "\nlastName: " << person.lastName << "\nbornYear: " << person.bornYear << std::endl;
     }
 
     bool Person::operator==(Person man)

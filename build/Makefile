@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/build
+CMAKE_SOURCE_DIR = /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/build
@@ -117,41 +117,89 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named laba
+# Target rules for targets named test_cmake
 
 # Build rule for target.
-laba: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 laba
-.PHONY : laba
+test_cmake: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_cmake
+.PHONY : test_cmake
 
 # fast build rule for target.
-laba/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba.dir/build.make CMakeFiles/laba.dir/build
-.PHONY : laba/fast
+test_cmake/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/build
+.PHONY : test_cmake/fast
 
-home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.o: home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.o
-.PHONY : home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.o
+Definition/TypesOfData/MyString.o: Definition/TypesOfData/MyString.cpp.o
+.PHONY : Definition/TypesOfData/MyString.o
 
 # target to build an object file
-home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba.dir/build.make CMakeFiles/laba.dir/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.o
-.PHONY : home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.o
+Definition/TypesOfData/MyString.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.o
+.PHONY : Definition/TypesOfData/MyString.cpp.o
 
-home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.i: home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.i
-.PHONY : home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.i
+Definition/TypesOfData/MyString.i: Definition/TypesOfData/MyString.cpp.i
+.PHONY : Definition/TypesOfData/MyString.i
 
 # target to preprocess a source file
-home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba.dir/build.make CMakeFiles/laba.dir/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.i
-.PHONY : home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.i
+Definition/TypesOfData/MyString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.i
+.PHONY : Definition/TypesOfData/MyString.cpp.i
 
-home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.s: home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.s
-.PHONY : home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.s
+Definition/TypesOfData/MyString.s: Definition/TypesOfData/MyString.cpp.s
+.PHONY : Definition/TypesOfData/MyString.s
 
 # target to generate assembly for a file
-home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/laba.dir/build.make CMakeFiles/laba.dir/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.s
-.PHONY : home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.cpp.s
+Definition/TypesOfData/MyString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/TypesOfData/MyString.cpp.s
+.PHONY : Definition/TypesOfData/MyString.cpp.s
+
+Definition/TypesOfData/Person.o: Definition/TypesOfData/Person.cpp.o
+.PHONY : Definition/TypesOfData/Person.o
+
+# target to build an object file
+Definition/TypesOfData/Person.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.o
+.PHONY : Definition/TypesOfData/Person.cpp.o
+
+Definition/TypesOfData/Person.i: Definition/TypesOfData/Person.cpp.i
+.PHONY : Definition/TypesOfData/Person.i
+
+# target to preprocess a source file
+Definition/TypesOfData/Person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.i
+.PHONY : Definition/TypesOfData/Person.cpp.i
+
+Definition/TypesOfData/Person.s: Definition/TypesOfData/Person.cpp.s
+.PHONY : Definition/TypesOfData/Person.s
+
+# target to generate assembly for a file
+Definition/TypesOfData/Person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/TypesOfData/Person.cpp.s
+.PHONY : Definition/TypesOfData/Person.cpp.s
+
+Definition/main.o: Definition/main.cpp.o
+.PHONY : Definition/main.o
+
+# target to build an object file
+Definition/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/main.cpp.o
+.PHONY : Definition/main.cpp.o
+
+Definition/main.i: Definition/main.cpp.i
+.PHONY : Definition/main.i
+
+# target to preprocess a source file
+Definition/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/main.cpp.i
+.PHONY : Definition/main.cpp.i
+
+Definition/main.s: Definition/main.cpp.s
+.PHONY : Definition/main.s
+
+# target to generate assembly for a file
+Definition/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/main.cpp.s
+.PHONY : Definition/main.cpp.s
 
 # Help Target
 help:
@@ -161,10 +209,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... laba"
-	@echo "... home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.o"
-	@echo "... home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.i"
-	@echo "... home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Definition/main.s"
+	@echo "... test_cmake"
+	@echo "... Definition/TypesOfData/MyString.o"
+	@echo "... Definition/TypesOfData/MyString.i"
+	@echo "... Definition/TypesOfData/MyString.s"
+	@echo "... Definition/TypesOfData/Person.o"
+	@echo "... Definition/TypesOfData/Person.i"
+	@echo "... Definition/TypesOfData/Person.s"
+	@echo "... Definition/main.o"
+	@echo "... Definition/main.i"
+	@echo "... Definition/main.s"
 .PHONY : help
 
 

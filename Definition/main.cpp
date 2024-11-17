@@ -4,8 +4,10 @@
 #include "MergeSorter.h"
 #include "InsertionSorter.h"
 #include "ShellSorter.h"
+#include "BitonicSorter.h"
 #include "ListSequence.h"
 #include "ArraySequence.h"
+#include "Person.h"
 #include <iostream>
 
 bool cmpInt(int const & a, int const & b) // это компоратор
@@ -28,8 +30,17 @@ int main(int argc, char** argv)
     //mSorter.Sort(seq);
     //InsertionSorter<int> iSorter(cmpInt);
     //iSorter.Sort(seq);
-    ShellSorter<int> sSorter(cmpInt);
-    sSorter.Sort(seq);
-    PrintSeq(seq);
-
+    //ShellSorter<int> sSorter(cmpInt);
+    //sSorter.Sort(seq);
+    //BitonicSorter<int> bSorter(cmpInt);
+    //bSorter.Sort(seq);
+    //Person p1;
+    //std::cin >> p1;
+    //MyString str;
+    //std::cin >> str;
+    //std::cout << str;
+    //std::cout << p1;
+    Sequence<int>* seq2 = seq->GetNewSequence(35);
+    delete seq2;
+    delete seq;
 }

@@ -1,5 +1,5 @@
-#ifndef INSERTION_SORT_H
-#define INSERTION_SORT_H
+#ifndef INSERTION_SORTER_H
+#define INSERTION_SORTER_H
 
 #include "AbstractSorter.h"
 
