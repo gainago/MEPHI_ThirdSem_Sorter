@@ -42,7 +42,7 @@ public:
 
     MyString& operator=(const MyString& other);
 
-    MyString operator+(const MyString& other);
+    MyString operator+(const MyString& other) const;
 
     friend std::ostream &operator<<(std::ostream &out, const MyString& myString);
 

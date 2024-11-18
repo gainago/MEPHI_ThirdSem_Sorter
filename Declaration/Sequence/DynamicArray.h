@@ -21,7 +21,13 @@ public:
             throw "Invalid size";
         }
         this->capacity_ = size;
-        this->elements_ = new T[size];
+        try{
+            this->elements_ = new T[size];
+        }
+        catch(...)
+        {
+            throw "can not make provide memory to DynamicArray";
+        }
     }
 
     DynamicArray(T* items, int count) : DynamicArray(count)

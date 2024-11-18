@@ -4,7 +4,11 @@
 #include <iostream>
 #include "MyString.h"
 
-typedef MyString PersonID;
+//count of symbols without '\0'
+#define MLENGTH 40 
+
+typedef MyString PersonID; // 1 Person ~ 225 байт
+
 
 class Person
 {

@@ -1,17 +1,20 @@
-#include "QuickSorter.h"
-#include "BubbleSorter.h"
-#include "PiramidSorter.h"
-#include "MergeSorter.h"
-#include "InsertionSorter.h"
-#include "ShellSorter.h"
-#include "BitonicSorter.h"
+// #include "QuickSorter.h"
+// #include "BubbleSorter.h"
+// #include "PiramidSorter.h"
+// #include "MergeSorter.h"
+// #include "InsertionSorter.h"
+// #include "ShellSorter.h"
+// #include "BitonicSorter.h"
 #include "ListSequence.h"
 #include "ArraySequence.h"
 #include "DynamicArray.h"
 #include "Person.h"
 #include "GetNamesAndSournamesToMyString.h" 
-#include "WriteIntToFile.h"//home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Tests/GetNamesAndSournamesToMyString.h
+#include "MyString.h"
+#include "WriteIntToFile.h"
+#include "WritePersonToFile.h"
 #include <iostream>
+#include <fstream>
 
 bool cmpInt(int const & a, int const & b) // это компоратор
 {
@@ -21,7 +24,7 @@ bool cmpInt(int const & a, int const & b) // это компоратор
 
 int main(int argc, char** argv)
 {
-    int arr[12] = {1, 3, 0, 2211, -3, -4, -7, 0, 0, 0, 1, 5};
+    //int arr[12] = {1, 3, 0, 2211, -3, -4, -7, 0, 0, 0, 1, 5};
     //Sequence<int>* seq = new MutableArraySequence<int>(arr, 12);
     //QuickSorter<int> QSorter(cmp);
     //QSorter.Sort(seq);
@@ -55,6 +58,22 @@ int main(int argc, char** argv)
     //MyString string = MyString::IntToMyString(-100);
 
     //td::cout << string;
-    WriteSequenceIntToFile(100500);
+    //WriteIntToFile(100500);
+    DynamicArray<MyString> *Names = nullptr;
+    DynamicArray<MyString> *Surnames = nullptr;
+
+    try{
+    Names = GetNamesToMyString();
+    Surnames = GetSurnamesToMyString();
+    WritePersonToFile(105268806, Names, Surnames);
+    delete Names;
+    delete Surnames;
+    }
+    catch(char const* sh)
+    {
+        std::cout << sh;
+    }
+   //std::cout << argv[0];
+
 
 }

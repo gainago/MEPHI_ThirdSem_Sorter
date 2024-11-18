@@ -6,7 +6,7 @@
 #include "Person.h"
 
 
-Sequence<Person>* GenerateArraySequencePerson(int const count, DynamicArray<MyString>* Names, DynamicArray<MyString>* Surnames);
+Sequence<Person*>* GenerateArraySequencePerson(int const count, DynamicArray<MyString>* Names, DynamicArray<MyString>* Surnames);
 
 
 #endif //GENERATE_ARRAY_SEQUENCE_PERSON

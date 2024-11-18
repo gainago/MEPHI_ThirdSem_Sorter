@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sequence -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Sorter -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/TypesOfData -I/home/goshagaina/MEPHILabsMyselfThirdSemester/SecondLaboratorySort/Declaration/Tests
 
-CXX_FLAGS =  -std=c++11 -Wall -g
+CXX_FLAGS =  -std=c++11 -Wall -O2 -g
 

@@ -35,8 +35,8 @@ private:
                 left++;
                 
             while(this->cmp_(seq->Get(mainElement), seq->Get(right)))
-                right--;
-
+            {    right--;
+            }
                 if(left < right) {
                     Type tmp = seq->Get(left);
                     seq->operator[](left) = seq->Get(right);

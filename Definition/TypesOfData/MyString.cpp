@@ -100,6 +100,12 @@
         MyString tmpMyString;
         int tmpNumber = number;
         bool moreThanNull = 1;
+
+        if(number == 0)
+        {
+            return MyString("0");
+        }
+
         if(tmpNumber < 0)
         {
             moreThanNull = 0;
@@ -216,7 +222,7 @@
         return *this;
     }
 
-    MyString MyString::operator+(const MyString& other)
+    MyString MyString::operator+(const MyString& other) const
     {
         MyString newStr;
         int thisLength = this->StrLen(this->str_);
@@ -241,7 +247,7 @@
 
         for (int j = 0; j < otherLength; j++)
         {
-            newStr.str_[thisLength + j] = other.str_[j];
+            newStr.str_[thisLength + j] = other.str_[j]; // it will not happen
         }
 
         newStr.str_[thisLength + otherLength] = '\0';

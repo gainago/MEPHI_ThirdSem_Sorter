@@ -273,6 +273,54 @@ Definition/Tests/GetNamesAndSournamesToMyString.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/GetNamesAndSournamesToMyString.cpp.s
 .PHONY : Definition/Tests/GetNamesAndSournamesToMyString.cpp.s
 
+Definition/Tests/WriteIntToFile.o: Definition/Tests/WriteIntToFile.cpp.o
+.PHONY : Definition/Tests/WriteIntToFile.o
+
+# target to build an object file
+Definition/Tests/WriteIntToFile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/WriteIntToFile.cpp.o
+.PHONY : Definition/Tests/WriteIntToFile.cpp.o
+
+Definition/Tests/WriteIntToFile.i: Definition/Tests/WriteIntToFile.cpp.i
+.PHONY : Definition/Tests/WriteIntToFile.i
+
+# target to preprocess a source file
+Definition/Tests/WriteIntToFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/WriteIntToFile.cpp.i
+.PHONY : Definition/Tests/WriteIntToFile.cpp.i
+
+Definition/Tests/WriteIntToFile.s: Definition/Tests/WriteIntToFile.cpp.s
+.PHONY : Definition/Tests/WriteIntToFile.s
+
+# target to generate assembly for a file
+Definition/Tests/WriteIntToFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/WriteIntToFile.cpp.s
+.PHONY : Definition/Tests/WriteIntToFile.cpp.s
+
+Definition/Tests/WritePersonToFile.o: Definition/Tests/WritePersonToFile.cpp.o
+.PHONY : Definition/Tests/WritePersonToFile.o
+
+# target to build an object file
+Definition/Tests/WritePersonToFile.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/WritePersonToFile.cpp.o
+.PHONY : Definition/Tests/WritePersonToFile.cpp.o
+
+Definition/Tests/WritePersonToFile.i: Definition/Tests/WritePersonToFile.cpp.i
+.PHONY : Definition/Tests/WritePersonToFile.i
+
+# target to preprocess a source file
+Definition/Tests/WritePersonToFile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/WritePersonToFile.cpp.i
+.PHONY : Definition/Tests/WritePersonToFile.cpp.i
+
+Definition/Tests/WritePersonToFile.s: Definition/Tests/WritePersonToFile.cpp.s
+.PHONY : Definition/Tests/WritePersonToFile.s
+
+# target to generate assembly for a file
+Definition/Tests/WritePersonToFile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_cmake.dir/build.make CMakeFiles/test_cmake.dir/Definition/Tests/WritePersonToFile.cpp.s
+.PHONY : Definition/Tests/WritePersonToFile.cpp.s
+
 Definition/TypesOfData/MyString.o: Definition/TypesOfData/MyString.cpp.o
 .PHONY : Definition/TypesOfData/MyString.o
 
@@ -372,6 +420,12 @@ help:
 	@echo "... Definition/Tests/GetNamesAndSournamesToMyString.o"
 	@echo "... Definition/Tests/GetNamesAndSournamesToMyString.i"
 	@echo "... Definition/Tests/GetNamesAndSournamesToMyString.s"
+	@echo "... Definition/Tests/WriteIntToFile.o"
+	@echo "... Definition/Tests/WriteIntToFile.i"
+	@echo "... Definition/Tests/WriteIntToFile.s"
+	@echo "... Definition/Tests/WritePersonToFile.o"
+	@echo "... Definition/Tests/WritePersonToFile.i"
+	@echo "... Definition/Tests/WritePersonToFile.s"
 	@echo "... Definition/TypesOfData/MyString.o"
 	@echo "... Definition/TypesOfData/MyString.i"
 	@echo "... Definition/TypesOfData/MyString.s"

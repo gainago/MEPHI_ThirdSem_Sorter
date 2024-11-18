@@ -1,8 +1,7 @@
 #include "MyString.h"
 #include <iostream>
 #include "Person.h"
-//count of symbols without '\0'
-#define MLENGTH 40 
+
 
 
     Person::Person() : id(MLENGTH), firstName(MLENGTH), middleName(MLENGTH), lastName(MLENGTH), bornYear(2005) {}
@@ -10,6 +9,7 @@
     Person::Person(PersonID id, MyString firstName, MyString middleName, MyString lastName, int birthAge )
     {
         if(id.GetLength() > MLENGTH || firstName.GetLength() > MLENGTH || middleName.GetLength() > MLENGTH)
+            throw "length string more than MLENGTH";
         this->id = id;
         this->firstName = firstName;
         this->middleName = middleName;
@@ -84,7 +84,7 @@
 
     std::ostream & operator<<(std::ostream &out, const Person &person)
     {
-        return out << "Person id:" << person.id << "\nfirstName: " << person.firstName << "\nmiddleName: " << person.middleName << "\nlastName: " << person.lastName << "\nbornYear: " << person.bornYear << std::endl;
+        return out << "Person id:" << person.id << "firstName: " << person.firstName << "middleName: " << person.middleName << "lastName: " << person.lastName << "bornYear: " << person.bornYear << std::endl;
     }
 
     bool Person::operator==(Person man)
